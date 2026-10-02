@@ -4,6 +4,9 @@ Curso: Analisis de Datos | Docente: Daniel Alexis Nieto Mora | 2026-2
 
 ## Integrantes
 - SANTIAGO VARELA JIMENEZ 
+- FERNEY ORLANDO LOPEZ COPETE
+- JOSE RICARDO QUIROZ GARCIA
+- LEIDY MELISSA TREJOS PAMPLONA
 
 ## Estructura
 - `01_exploracion/` - Exploracion y seleccion de bases de datos
