@@ -1,0 +1,18 @@
+{
+  "sha256_csv": "4006bdf58b69dd3faaf7755e78f1ceb37ce1e6ddb6e9c4973620adfb80ec4695",
+  "filas_originales": 303,
+  "filas_sin_duplicados": 302,
+  "filas_train": 241,
+  "filas_test": 61,
+  "columnas_codificadas": 30,
+  "componentes": 12,
+  "varianza_conservada": 0.909400637216525,
+  "varianza_2d": 0.39744284539003094,
+  "semilla": 42,
+  "version_sklearn": "1.9.1",
+  "codigos_pendientes": [
+    "ca=4",
+    "thal=0",
+    "significado clinico de target"
+  ]
+}
