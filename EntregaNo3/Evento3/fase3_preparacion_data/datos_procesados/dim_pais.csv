@@ -1,0 +1,239 @@
+iso_code,pais,poblacion,pib_per_capita,edad_mediana,pct_65_o_mas,esperanza_vida,idh,camas_por_mil,pct_pobreza_extrema,continente,id_continente,grupo_pib
+ABW,Aruba,106459,35973.78,41.2,13.08,76.29,,,,América del Norte,1,4. Alto
+AFG,Afghanistan,41128772,1803.99,18.6,2.58,64.83,0.51,0.5,,Asia,3,1. Bajo
+AGO,Angola,35588996,5819.5,16.8,2.4,61.15,0.58,,,África,6,2. Medio-bajo
+AIA,Anguilla,15877,,,,81.88,,,,América del Norte,1,Sin dato
+ALB,Albania,2842318,11803.43,38.0,13.19,78.57,0.8,2.89,1.1,Europa,4,2. Medio-bajo
+AND,Andorra,79843,,,,83.73,0.87,,,Europa,4,Sin dato
+ARE,United Arab Emirates,9441138,67293.48,34.0,1.14,77.97,0.89,1.2,,Asia,3,4. Alto
+ARG,Argentina,45510324,18933.91,31.9,11.2,76.67,0.84,5.0,0.6,América del Sur,2,3. Medio-alto
+ARM,Armenia,2780472,8787.58,35.7,11.23,75.09,0.78,4.2,1.8,Asia,3,2. Medio-bajo
+ASM,American Samoa,44295,,,,73.74,,,,Oceanía,5,Sin dato
+ATG,Antigua and Barbuda,93772,21490.94,32.1,6.93,77.02,0.78,3.8,,América del Norte,1,3. Medio-alto
+AUS,Australia,26177410,44648.71,37.9,15.5,83.44,0.94,3.84,0.5,Oceanía,5,4. Alto
+AUT,Austria,8939617,45436.69,44.4,19.2,81.54,0.92,7.37,0.7,Europa,4,4. Alto
+AZE,Azerbaijan,10358078,15847.42,32.4,6.02,73.0,0.76,4.7,,Asia,3,3. Medio-alto
+BDI,Burundi,12889583,702.22,17.5,2.56,61.58,0.43,0.8,71.7,África,6,1. Bajo
+BEL,Belgium,11655923,42658.58,41.8,18.57,81.63,0.93,5.64,0.2,Europa,4,4. Alto
+BEN,Benin,13352864,2064.24,18.8,3.24,61.77,0.55,0.5,49.6,África,6,1. Bajo
+BES,Bonaire Sint Eustatius and Saba,27052,,,,77.79,,,,América del Norte,1,Sin dato
+BFA,Burkina Faso,22673764,1703.1,17.6,2.41,61.58,0.45,0.4,43.7,África,6,1. Bajo
+BGD,Bangladesh,171186368,3523.98,27.5,5.1,72.59,0.63,0.8,14.8,Asia,3,1. Bajo
+BGR,Bulgaria,6781955,18563.31,44.7,20.8,75.05,0.82,7.45,1.5,Europa,4,3. Medio-alto
+BHR,Bahrain,1472237,43290.7,32.4,2.37,77.29,0.85,2.0,,Asia,3,4. Alto
+BHS,Bahamas,409989,27717.85,34.3,9.0,73.92,0.81,2.9,,América del Norte,1,4. Alto
+BIH,Bosnia and Herzegovina,3233530,11713.9,42.5,16.57,77.4,0.78,3.5,0.2,Europa,4,2. Medio-bajo
+BLM,Saint Barthelemy,10994,,,,,,,,América del Norte,1,Sin dato
+BLR,Belarus,9534956,17167.97,40.3,14.8,74.79,0.82,11.0,,Europa,4,3. Medio-alto
+BLZ,Belize,405285,7824.36,25.0,3.85,74.62,0.72,1.3,,América del Norte,1,2. Medio-bajo
+BMU,Bermuda,64207,50669.32,,,82.59,,,,América del Norte,1,4. Alto
+BOL,Bolivia,12224114,6885.83,25.4,6.7,71.51,0.72,1.1,7.1,América del Sur,2,2. Medio-bajo
+BRA,Brazil,215313504,14103.45,33.5,8.55,75.88,0.76,2.2,3.4,América del Sur,2,3. Medio-alto
+BRB,Barbados,281646,16978.07,39.8,14.95,79.19,0.81,5.8,,América del Norte,1,3. Medio-alto
+BRN,Brunei,449002,71809.25,32.4,4.59,75.86,0.84,2.7,,Asia,3,4. Alto
+BTN,Bhutan,782457,8708.6,28.6,4.88,71.78,0.65,1.7,1.5,Asia,3,2. Medio-bajo
+BWA,Botswana,2630300,15807.37,25.8,3.94,69.59,0.74,1.8,,África,6,3. Medio-alto
+CAF,Central African Republic,5579148,661.24,18.3,3.66,53.28,0.4,1.0,,África,6,1. Bajo
+CAN,Canada,38454328,44017.59,41.4,16.98,82.43,0.93,2.5,0.5,América del Norte,1,4. Alto
+CHE,Switzerland,8740471,57410.17,43.1,18.44,83.78,0.96,4.53,,Europa,4,4. Alto
+CHL,Chile,19603736,22767.04,35.4,11.09,80.18,0.85,2.11,1.3,América del Sur,2,3. Medio-alto
+CHN,China,1425887360,15308.71,38.7,10.64,76.91,0.76,4.34,0.7,Asia,3,3. Medio-alto
+CIV,Cote d'Ivoire,28160548,3601.01,18.7,2.93,57.78,0.54,,28.2,África,6,1. Bajo
+CMR,Cameroon,27914542,3364.93,18.8,3.16,59.29,0.56,1.3,23.8,África,6,1. Bajo
+COD,Democratic Republic of Congo,99010216,808.13,17.0,3.02,60.68,0.48,,77.1,África,6,1. Bajo
+COG,Congo,5970430,4881.41,19.0,3.4,64.57,0.57,,37.0,África,6,2. Medio-bajo
+COK,Cook Islands,17032,,,,76.25,,,,Oceanía,5,Sin dato
+COL,Colombia,51874028,13254.95,32.2,7.65,77.29,0.77,1.71,4.5,América del Sur,2,3. Medio-alto
+COM,Comoros,836783,1413.89,20.4,2.96,64.32,0.55,2.2,18.1,África,6,1. Bajo
+CPV,Cape Verde,593162,6222.55,25.7,4.46,72.98,0.66,2.1,,África,6,2. Medio-bajo
+CRI,Costa Rica,5180836,15525.0,33.6,9.47,80.28,0.81,1.13,1.3,América del Norte,1,3. Medio-alto
+CUB,Cuba,11212198,,43.1,14.74,78.8,0.78,5.2,,América del Norte,1,Sin dato
+CUW,Curacao,191173,,41.7,16.37,78.88,,,,América del Norte,1,Sin dato
+CYM,Cayman Islands,68722,49903.03,,,83.92,,,,América del Norte,1,4. Alto
+CYP,Cyprus,896007,32415.13,37.3,13.42,80.98,0.89,3.4,,Europa,4,4. Alto
+CZE,Czechia,10493990,32605.91,43.3,19.03,79.38,0.9,6.63,,Europa,4,4. Alto
+DEU,Germany,83369840,45229.24,46.6,21.45,81.33,0.95,8.0,,Europa,4,4. Alto
+DJI,Djibouti,1120851,2705.41,25.4,4.21,67.11,0.52,1.4,22.5,África,6,1. Bajo
+DMA,Dominica,72758,9673.37,,,75.0,0.74,3.8,,América del Norte,1,2. Medio-bajo
+DNK,Denmark,5882259,46682.52,42.3,19.68,80.9,0.94,2.5,0.2,Europa,4,4. Alto
+DOM,Dominican Republic,11228821,14600.86,27.6,6.98,74.08,0.76,1.6,1.6,América del Norte,1,3. Medio-alto
+DZA,Algeria,44903228,13913.84,29.1,6.21,76.88,0.75,1.9,0.5,África,6,3. Medio-alto
+ECU,Ecuador,18001002,10581.94,28.1,7.1,77.01,0.76,1.5,3.6,América del Sur,2,2. Medio-bajo
+EGY,Egypt,110990096,10550.21,25.3,5.16,71.99,0.71,1.6,1.3,África,6,2. Medio-bajo
+ERI,Eritrea,3684041,1510.46,19.3,3.61,66.32,0.46,0.7,,África,6,1. Bajo
+ESH,Western Sahara,576005,,28.4,,70.26,,,,África,6,Sin dato
+ESP,Spain,47558632,34272.36,45.5,19.44,83.56,0.9,2.97,1.0,Europa,4,4. Alto
+EST,Estonia,1326064,29481.25,42.7,19.45,78.74,0.89,4.69,0.5,Europa,4,4. Alto
+ETH,Ethiopia,123379928,1729.93,19.8,3.53,66.6,0.48,0.3,26.7,África,6,1. Bajo
+FIN,Finland,5540745,40585.72,42.8,21.23,81.91,0.94,3.28,,Europa,4,4. Alto
+FJI,Fiji,929769,8702.98,28.6,6.22,67.44,0.74,2.3,1.4,Oceanía,5,2. Medio-bajo
+FLK,Falkland Islands,3801,,,,81.44,,,,América del Sur,2,Sin dato
+FRA,France,67813000,38605.67,42.0,19.72,82.66,0.9,5.98,,Europa,4,4. Alto
+FRO,Faroe Islands,53117,,,,80.67,,,,Europa,4,Sin dato
+FSM,Micronesia (country),114178,3299.46,23.0,4.81,67.88,0.62,,16.0,Oceanía,5,1. Bajo
+GAB,Gabon,2388997,16562.41,23.1,4.45,66.47,0.7,6.3,3.4,África,6,3. Medio-alto
+GBR,United Kingdom,67508936,39753.24,40.8,18.52,81.32,0.93,2.54,0.2,Europa,4,4. Alto
+GEO,Georgia,3744385,9745.08,38.7,14.86,73.77,0.81,2.6,4.2,Asia,3,2. Medio-bajo
+GGY,Guernsey,63329,,,,,,,,Europa,4,Sin dato
+GHA,Ghana,33475870,4227.63,21.1,3.38,64.07,0.61,0.9,12.0,África,6,2. Medio-bajo
+GIB,Gibraltar,32677,,,,79.93,,,,Europa,4,Sin dato
+GIN,Guinea,13859349,1998.93,19.0,3.14,61.6,0.48,0.3,35.3,África,6,1. Bajo
+GLP,Guadeloupe,395762,,43.4,,82.14,,,,América del Norte,1,Sin dato
+GMB,Gambia,2705995,1561.77,17.5,2.34,62.05,0.5,1.1,10.1,África,6,1. Bajo
+GNB,Guinea-Bissau,2105580,1548.68,19.4,3.0,58.32,0.48,,67.1,África,6,1. Bajo
+GNQ,Equatorial Guinea,1674916,22604.87,22.4,2.85,58.74,0.59,2.1,,África,6,3. Medio-alto
+GRC,Greece,10384972,24574.38,45.3,20.4,82.24,0.89,4.21,1.5,Europa,4,3. Medio-alto
+GRD,Grenada,125459,13593.88,29.4,7.3,72.4,0.78,3.7,,América del Norte,1,3. Medio-alto
+GRL,Greenland,56494,,,,71.7,,,,América del Norte,1,Sin dato
+GTM,Guatemala,17843914,7423.81,22.9,4.69,74.3,0.66,0.6,8.7,América del Norte,1,2. Medio-bajo
+GUF,French Guiana,304568,,25.3,,79.95,,,,América del Sur,2,Sin dato
+GUM,Guam,171783,,31.4,9.55,80.07,,,,Oceanía,5,Sin dato
+GUY,Guyana,808727,7435.05,26.3,5.3,69.91,0.68,1.6,,América del Sur,2,2. Medio-bajo
+HKG,Hong Kong,7488863,56054.92,44.8,16.3,84.86,0.95,,,Asia,3,4. Alto
+HND,Honduras,10432858,4541.8,24.9,4.65,75.27,0.63,0.7,16.0,América del Norte,1,2. Medio-bajo
+HRV,Croatia,4030361,22669.8,44.0,19.72,78.49,0.85,5.54,0.7,Europa,4,3. Medio-alto
+HTI,Haiti,11585003,1653.17,24.3,4.8,64.0,0.51,0.7,23.5,América del Norte,1,1. Bajo
+HUN,Hungary,9967304,26777.56,43.4,18.58,76.88,0.85,7.02,0.5,Europa,4,3. Medio-alto
+IDN,Indonesia,275501344,11188.74,29.3,5.32,71.72,0.72,1.04,5.7,Asia,3,2. Medio-bajo
+IMN,Isle of Man,84534,,,,81.4,,,,Europa,4,Sin dato
+IND,India,1417173120,6426.67,28.2,5.99,69.66,0.64,0.53,21.2,Asia,3,2. Medio-bajo
+IRL,Ireland,5023108,67335.29,38.7,13.93,82.3,0.96,2.96,0.2,Europa,4,4. Alto
+IRN,Iran,88550568,19082.62,32.4,5.44,76.68,0.78,1.5,0.2,Asia,3,3. Medio-alto
+IRQ,Iraq,44496124,15663.99,20.0,3.19,70.6,0.67,1.4,2.5,Asia,3,3. Medio-alto
+ISL,Iceland,372903,46482.96,37.3,14.43,82.99,0.95,2.91,0.2,Europa,4,4. Alto
+ISR,Israel,9449000,33132.32,30.6,11.73,82.97,0.92,2.99,0.5,Asia,3,4. Alto
+ITA,Italy,59037472,35220.08,47.9,23.02,83.51,0.89,3.18,2.0,Europa,4,4. Alto
+JAM,Jamaica,2827382,8193.57,31.4,9.68,74.47,0.73,1.7,,América del Norte,1,2. Medio-bajo
+JEY,Jersey,110796,,,,,,,,Europa,4,Sin dato
+JOR,Jordan,11285875,8337.49,23.2,3.81,74.53,0.73,1.4,0.1,Asia,3,2. Medio-bajo
+JPN,Japan,123951696,39002.22,48.2,27.05,84.63,0.92,13.05,,Asia,3,4. Alto
+KAZ,Kazakhstan,19397998,24055.59,30.6,6.99,73.6,0.82,6.7,0.1,Asia,3,3. Medio-alto
+KEN,Kenya,54027484,2993.03,20.0,2.69,66.7,0.6,1.4,36.8,África,6,1. Bajo
+KGZ,Kyrgyzstan,6630621,3393.47,26.3,4.49,71.45,0.7,4.5,1.4,Asia,3,1. Bajo
+KHM,Cambodia,16767851,3645.07,25.6,4.41,69.82,0.59,0.8,,Asia,3,1. Bajo
+KIR,Kiribati,131237,1981.13,23.2,3.9,68.37,0.63,1.9,,Oceanía,5,1. Bajo
+KNA,Saint Kitts and Nevis,47681,24654.38,,,76.23,0.78,2.3,,América del Norte,1,3. Medio-alto
+KOR,South Korea,51815808,35938.37,43.4,13.91,83.03,0.92,12.27,0.2,Asia,3,4. Alto
+KWT,Kuwait,4268886,65530.54,33.7,2.35,75.49,0.81,2.0,,Asia,3,4. Alto
+LAO,Laos,7529477,6397.36,24.4,4.03,67.92,0.61,1.5,22.7,Asia,3,2. Medio-bajo
+LBN,Lebanon,5489744,13367.56,31.1,8.51,78.93,0.74,2.9,,Asia,3,3. Medio-alto
+LBR,Liberia,5302690,752.79,19.2,3.06,64.1,0.48,0.8,38.6,África,6,1. Bajo
+LBY,Libya,6812344,17881.51,29.0,4.42,72.91,0.72,3.7,,África,6,3. Medio-alto
+LCA,Saint Lucia,179872,12951.84,34.9,9.72,76.2,0.76,1.3,,América del Norte,1,3. Medio-alto
+LIE,Liechtenstein,39355,,,,82.49,0.92,2.4,,Europa,4,Sin dato
+LKA,Sri Lanka,21832150,11669.08,34.1,10.07,76.98,0.78,3.6,0.7,Asia,3,2. Medio-bajo
+LSO,Lesotho,2305826,2851.15,22.2,4.51,54.33,0.53,,59.6,África,6,1. Bajo
+LTU,Lithuania,2750058,29524.26,43.5,19.0,75.93,0.88,6.56,0.7,Europa,4,4. Alto
+LUX,Luxembourg,647601,94277.96,39.7,14.31,82.25,0.92,4.51,0.2,Europa,4,4. Alto
+LVA,Latvia,1850654,25063.85,43.9,19.75,75.29,0.87,5.57,0.7,Europa,4,3. Medio-alto
+MAC,Macao,695180,104861.85,39.2,9.8,84.24,,,,Asia,3,4. Alto
+MAF,Saint Martin (French part),31816,,,,82.08,,,,América del Norte,1,Sin dato
+MAR,Morocco,37457976,7485.01,29.6,6.77,76.68,0.69,1.1,1.0,África,6,2. Medio-bajo
+MCO,Monaco,36491,,,,86.75,,13.8,,Europa,4,Sin dato
+MDA,Moldova,3272993,5189.97,37.6,10.86,71.9,0.75,5.8,0.2,Europa,4,2. Medio-bajo
+MDG,Madagascar,29611718,1416.44,19.6,2.93,67.04,0.53,0.2,77.6,África,6,1. Bajo
+MDV,Maldives,523798,15183.62,30.6,4.12,78.92,0.74,,,Asia,3,3. Medio-alto
+MEX,Mexico,127504120,17336.47,29.3,6.86,75.05,0.78,1.38,2.5,América del Norte,1,3. Medio-alto
+MHL,Marshall Islands,41593,3819.2,,,73.7,0.7,2.7,,Oceanía,5,1. Bajo
+MKD,North Macedonia,2093606,13111.21,39.1,13.26,75.8,0.77,4.28,5.0,Europa,4,3. Medio-alto
+MLI,Mali,22593598,2014.31,16.4,2.52,59.31,0.43,0.1,,África,6,1. Bajo
+MLT,Malta,533293,36513.32,42.4,19.43,82.53,0.9,4.49,0.2,Europa,4,4. Alto
+MMR,Myanmar,54179312,5591.6,29.1,5.73,67.13,0.58,0.9,6.4,Asia,3,2. Medio-bajo
+MNE,Montenegro,627082,16409.29,39.1,14.76,76.88,0.83,3.86,1.0,Europa,4,3. Medio-alto
+MNG,Mongolia,3398373,11840.85,28.6,4.03,69.87,0.74,7.0,0.5,Asia,3,2. Medio-bajo
+MNP,Northern Mariana Islands,49574,,,,76.74,,,,Oceanía,5,Sin dato
+MOZ,Mozambique,32969520,1136.1,17.7,3.16,60.85,0.46,0.7,62.9,África,6,1. Bajo
+MRT,Mauritania,4736146,3597.63,20.3,3.14,64.92,0.55,,6.0,África,6,1. Bajo
+MSR,Montserrat,4413,,,,74.16,,,,América del Norte,1,Sin dato
+MTQ,Martinique,367512,,45.7,,82.54,,,,América del Norte,1,Sin dato
+MUS,Mauritius,1299478,20292.74,37.4,10.94,74.99,0.8,3.4,0.5,África,6,3. Medio-alto
+MWI,Malawi,20405318,1095.04,18.1,2.98,64.26,0.48,1.3,71.4,África,6,1. Bajo
+MYS,Malaysia,33938216,26808.16,29.9,6.29,76.16,0.81,1.9,0.1,Asia,3,3. Medio-alto
+MYT,Mayotte,326113,,20.1,,79.46,,,,África,6,Sin dato
+NAM,Namibia,2567024,9541.81,22.0,3.55,63.71,0.65,,13.4,África,6,2. Medio-bajo
+NCL,New Caledonia,289959,,33.4,9.95,77.55,,,,Oceanía,5,Sin dato
+NER,Niger,26207982,926.0,15.1,2.55,62.42,0.39,0.3,44.5,África,6,1. Bajo
+NGA,Nigeria,218541216,5338.45,18.1,2.75,54.69,0.54,,,África,6,2. Medio-bajo
+NIC,Nicaragua,6948395,5321.44,27.3,5.44,74.48,0.66,0.9,3.2,América del Norte,1,2. Medio-bajo
+NIU,Niue,1952,,,,73.71,,,,Oceanía,5,Sin dato
+NLD,Netherlands,17564020,48472.54,43.2,18.78,82.28,0.94,3.32,,Europa,4,4. Alto
+NOR,Norway,5434324,64800.06,39.7,16.82,82.4,0.96,3.6,0.2,Europa,4,4. Alto
+NPL,Nepal,30547586,2442.8,25.0,5.81,70.78,0.6,0.3,15.0,Asia,3,1. Bajo
+NRU,Nauru,12691,12895.64,,,59.96,,5.0,,Oceanía,5,3. Medio-alto
+NZL,New Zealand,5185289,36085.84,37.9,15.32,82.29,0.93,2.61,,Oceanía,5,4. Alto
+OMN,Oman,4576300,37960.71,30.7,2.36,77.86,0.81,1.6,,Asia,3,4. Alto
+OWID_KOS,Kosovo,1782115,9795.83,,,,,,0.6,Europa,4,2. Medio-bajo
+PAK,Pakistan,235824864,5034.71,23.5,4.5,67.27,0.56,0.6,4.0,Asia,3,2. Medio-bajo
+PAN,Panama,4408582,22267.04,29.7,7.92,78.51,0.82,2.3,2.2,América del Norte,1,3. Medio-alto
+PCN,Pitcairn,47,,,,,,,,Oceanía,5,Sin dato
+PER,Peru,34049588,12236.71,29.1,7.15,76.74,0.78,1.6,3.5,América del Sur,2,2. Medio-bajo
+PHL,Philippines,115559008,7599.19,25.2,4.8,71.23,0.72,1.0,,Asia,3,2. Medio-bajo
+PLW,Palau,18084,13240.4,,,73.7,0.83,4.8,,Oceanía,5,3. Medio-alto
+PNG,Papua New Guinea,10142625,3823.19,22.6,3.81,64.5,0.56,,,Oceanía,5,1. Bajo
+POL,Poland,39857144,27216.44,41.8,16.76,78.73,0.88,6.62,,Europa,4,3. Medio-alto
+PRI,Puerto Rico,3252412,35044.67,38.2,15.17,80.1,,,,América del Norte,1,4. Alto
+PRK,North Korea,26069416,,35.3,9.49,72.27,,13.2,,Asia,3,Sin dato
+PRT,Portugal,10270857,27936.9,46.2,21.5,82.05,0.86,3.39,0.5,Europa,4,4. Alto
+PRY,Paraguay,6780745,8827.01,26.5,6.38,74.25,0.73,1.3,1.7,América del Sur,2,2. Medio-bajo
+PSE,Palestine,5250076,4449.9,20.4,3.04,74.05,0.71,,1.0,Asia,3,2. Medio-bajo
+PYF,French Polynesia,306292,,32.7,7.78,77.66,,,,Oceanía,5,Sin dato
+QAT,Qatar,2695131,116935.6,31.9,1.31,80.23,0.85,1.2,,Asia,3,4. Alto
+REU,Reunion,974062,,36.0,,80.48,,,,África,6,Sin dato
+ROU,Romania,19659270,23313.2,43.0,17.85,76.05,0.83,6.89,5.7,Europa,4,3. Medio-alto
+RUS,Russia,144713312,24765.95,39.6,14.18,72.58,0.82,8.05,0.1,Europa,4,3. Medio-alto
+RWA,Rwanda,13776702,1854.21,20.3,2.97,69.02,0.54,,56.0,África,6,1. Bajo
+SAU,Saudi Arabia,36408824,49045.41,31.9,3.3,75.13,0.85,2.7,,Asia,3,4. Alto
+SDN,Sudan,46874200,4466.51,19.7,3.55,65.31,0.51,0.8,,África,6,2. Medio-bajo
+SEN,Senegal,17316452,2470.58,18.7,3.01,67.94,0.51,,38.0,África,6,1. Bajo
+SGP,Singapore,5637022,85535.38,42.4,12.92,83.62,0.94,2.4,,Asia,3,4. Alto
+SHN,Saint Helena,5401,,,,80.56,,,,África,6,Sin dato
+SLB,Solomon Islands,724272,2205.92,20.8,3.51,73.0,0.57,1.4,25.1,Oceanía,5,1. Bajo
+SLE,Sierra Leone,8605723,1390.3,19.1,2.54,54.7,0.45,,52.2,África,6,1. Bajo
+SLV,El Salvador,6336393,7292.46,27.6,8.27,73.32,0.67,1.3,2.2,América del Norte,1,2. Medio-bajo
+SMR,San Marino,33690,56861.47,,,84.97,,3.8,,Europa,4,4. Alto
+SOM,Somalia,17597508,,16.8,2.73,57.4,,0.9,,África,6,Sin dato
+SPM,Saint Pierre and Miquelon,5885,,,,81.07,,,,América del Norte,1,Sin dato
+SRB,Serbia,6871547,14048.88,41.2,17.37,76.0,0.81,5.61,,Europa,4,3. Medio-alto
+SSD,South Sudan,10913172,1569.89,19.2,3.44,57.85,0.43,,,África,6,1. Bajo
+STP,Sao Tome and Principe,227393,3052.71,18.7,2.89,70.39,0.62,2.9,32.3,África,6,1. Bajo
+SUR,Suriname,618046,13767.12,29.6,6.93,71.68,0.74,3.1,,América del Sur,2,3. Medio-alto
+SVK,Slovakia,5643455,30155.15,41.2,15.07,77.54,0.86,5.82,0.7,Europa,4,4. Alto
+SVN,Slovenia,2119843,31400.84,44.5,19.06,81.32,0.92,4.5,,Europa,4,4. Alto
+SWE,Sweden,10549349,46949.28,41.0,19.98,82.8,0.94,2.22,0.5,Europa,4,4. Alto
+SWZ,Eswatini,1201680,7738.98,21.5,3.16,60.19,0.61,2.1,,África,6,2. Medio-bajo
+SXM,Sint Maarten (Dutch part),44192,36327.23,,,78.95,,,,América del Norte,1,4. Alto
+SYC,Seychelles,107135,26382.29,36.2,8.61,73.4,0.8,3.6,1.1,África,6,3. Medio-alto
+SYR,Syria,22125242,,21.7,,72.7,0.57,1.5,,Asia,3,Sin dato
+TCA,Turks and Caicos Islands,45726,,,,80.22,,,,América del Norte,1,Sin dato
+TCD,Chad,17723312,1768.15,16.7,2.49,54.24,0.4,,38.4,África,6,1. Bajo
+TGO,Togo,8848700,1429.81,19.4,2.84,61.04,0.52,0.7,49.2,África,6,1. Bajo
+THA,Thailand,71697024,16277.67,40.1,11.37,77.15,0.78,2.1,0.1,Asia,3,3. Medio-alto
+TJK,Tajikistan,9952789,2896.91,23.3,3.47,71.1,0.67,4.8,4.8,Asia,3,1. Bajo
+TKL,Tokelau,1893,,,,81.86,,,,Oceanía,5,Sin dato
+TKM,Turkmenistan,6430777,16389.02,26.9,4.28,68.19,0.72,7.4,,Asia,3,3. Medio-alto
+TLS,East Timor,1341298,6570.1,18.0,3.56,69.5,0.61,5.9,30.3,Asia,3,2. Medio-bajo
+TON,Tonga,106867,5425.62,22.3,5.82,70.91,0.72,2.6,,Oceanía,5,2. Medio-bajo
+TTO,Trinidad and Tobago,1531043,28763.07,36.2,10.01,73.51,0.8,3.0,,América del Norte,1,4. Alto
+TUN,Tunisia,12356116,10849.3,32.7,8.0,76.7,0.74,2.3,2.0,África,6,2. Medio-bajo
+TUR,Turkey,85341248,25129.34,31.6,8.15,77.69,0.82,2.81,0.2,Asia,3,3. Medio-alto
+TUV,Tuvalu,11335,3575.1,,,67.57,,,3.3,Oceanía,5,1. Bajo
+TWN,Taiwan,23893396,,42.2,,80.46,,,,Asia,3,Sin dato
+TZA,Tanzania,65497752,2683.3,17.7,3.11,65.46,0.53,0.7,49.1,África,6,1. Bajo
+UGA,Uganda,47249588,1697.71,16.4,2.17,63.37,0.54,0.5,41.6,África,6,1. Bajo
+UKR,Ukraine,39701744,7894.39,41.4,16.46,72.06,0.78,8.8,0.1,Europa,4,2. Medio-bajo
+URY,Uruguay,3422796,20551.41,35.6,14.66,77.91,0.82,2.8,0.1,América del Sur,2,3. Medio-alto
+USA,United States,338289856,54225.45,38.3,15.41,78.86,0.93,2.77,1.2,América del Norte,1,4. Alto
+UZB,Uzbekistan,34627648,6253.1,28.2,4.47,71.72,0.72,4.0,,Asia,3,2. Medio-bajo
+VAT,Vatican,808,,,,75.12,,,,Europa,4,Sin dato
+VCT,Saint Vincent and the Grenadines,103959,10727.15,31.8,7.72,72.53,0.74,2.6,,América del Norte,1,2. Medio-bajo
+VEN,Venezuela,28301700,16745.02,29.0,6.61,72.06,0.71,0.8,,América del Sur,2,3. Medio-alto
+VGB,British Virgin Islands,31332,,,,79.07,,,,América del Norte,1,Sin dato
+VIR,United States Virgin Islands,99479,,42.2,18.6,80.58,,,,América del Norte,1,Sin dato
+VNM,Vietnam,98186856,6171.88,32.6,7.15,75.4,0.7,2.6,2.0,Asia,3,2. Medio-bajo
+VUT,Vanuatu,326744,2921.91,23.1,4.39,70.47,0.61,,13.2,Oceanía,5,1. Bajo
+WLF,Wallis and Futuna,11596,,,,79.94,,,,Oceanía,5,Sin dato
+WSM,Samoa,222390,6021.56,22.0,5.61,73.32,0.72,,,Oceanía,5,2. Medio-bajo
+YEM,Yemen,33696612,1479.15,20.3,2.92,66.12,0.47,0.7,18.8,Asia,3,1. Bajo
+ZAF,South Africa,59893884,12294.88,27.3,5.34,64.13,0.71,2.32,18.9,África,6,2. Medio-bajo
+ZMB,Zambia,20017670,3689.25,17.7,2.48,63.89,0.58,2.0,57.5,África,6,1. Bajo
+ZWE,Zimbabwe,16320539,1899.78,19.6,2.82,61.49,0.57,1.7,21.4,África,6,1. Bajo
