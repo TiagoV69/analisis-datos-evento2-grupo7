@@ -1,0 +1,61 @@
+﻿tabla,columna,tipo,%_nulos,descripcion
+dim_pais,iso_code,object,0.0,Código ISO-3 del país (llave)
+dim_pais,pais,object,0.0,Nombre del país
+dim_pais,continente,object,0.0,Continente
+dim_pais,poblacion,int64,0.0,Población total
+dim_pais,pib_per_capita,float64,18.4,PIB per cápita (USD PPA)
+dim_pais,pct_mayores_65,float64,19.7,% de población mayor de 65 años
+dim_pais,esperanza_vida,float64,2.5,Esperanza de vida al nacer (años)
+dim_pais,densidad_poblacion,float64,10.5,Habitantes por km²
+dim_pais,camas_por_1000,float64,28.0,Camas hospitalarias por 1 000 hab.
+dim_pais,prevalencia_diabetes,float64,14.2,% de población 20-79 años con diabetes
+dim_pais,tasa_muerte_cardiovascular,float64,18.4,Muertes cardiovasculares por 100 000 hab.
+dim_pais,grupo_ingreso,category,0.0,Cuartil de PIB per cápita (Q1 bajo - Q4 alto)
+dim_pais,grupo_edad,category,0.0,Tercil de % mayores de 65 (Joven / Intermedia / Envejecida)
+dim_pais,nivel_vacunacion,category,0.0,Cobertura final de vacunación completa (<40 / 40-70 / >=70 %)
+dim_pais,es_micro_estado,bool,0.0,True si población < 100 000 (tasas inestables)
+dim_tiempo,anio_mes,object,0.0,Periodo AAAA-MM (llave de tiempo)
+dim_tiempo,anio,int64,0.0,Año
+dim_tiempo,mes,int64,0.0,Mes (1-12)
+dim_tiempo,trimestre,int64,0.0,Trimestre (1-4)
+dim_tiempo,semestre,int64,0.0,Semestre (1-2)
+dim_tiempo,nombre_mes,object,0.0,Nombre corto del mes
+dim_tiempo,fecha_inicio_mes,object,0.0,Primer día del mes
+fact_covid_mensual,iso_code,object,0.0,Código ISO-3 del país (llave)
+fact_covid_mensual,anio_mes,object,0.0,Periodo AAAA-MM (llave de tiempo)
+fact_covid_mensual,casos_nuevos,float64,0.0,Casos confirmados en el periodo (suma)
+fact_covid_mensual,muertes_nuevas,float64,0.0,Muertes confirmadas en el periodo (suma)
+fact_covid_mensual,casos_acumulados,float64,0.0,Casos confirmados acumulados al cierre
+fact_covid_mensual,muertes_acumuladas,float64,0.0,Muertes acumuladas al cierre
+fact_covid_mensual,pct_al_menos_una_dosis,float64,29.9,% de población con al menos una dosis (cierre)
+fact_covid_mensual,pct_vacunacion_completa,float64,32.9,% de población con esquema completo (cierre)
+fact_covid_mensual,refuerzos_por_100,float64,50.7,Dosis de refuerzo por cada 100 hab. (cierre)
+fact_covid_mensual,casos_por_millon,float64,0.0,Casos acumulados por millón de hab.
+fact_covid_mensual,muertes_por_millon,float64,0.0,Muertes acumuladas por millón de hab.
+fact_covid_mensual,letalidad_pct,float64,7.9,Muertes acumuladas / casos acumulados × 100
+fact_covid_mensual,incidencia_100k,float64,0.0,Casos nuevos del mes por 100 000 hab.
+fact_covid_mensual,mortalidad_mes_por_millon,float64,0.0,Muertes nuevas del mes por millón de hab.
+resumen_pais,iso_code,object,0.0,Código ISO-3 del país (llave)
+resumen_pais,pais,object,0.0,Nombre del país
+resumen_pais,continente,object,0.0,Continente
+resumen_pais,poblacion,int64,0.0,Población total
+resumen_pais,pib_per_capita,float64,18.4,PIB per cápita (USD PPA)
+resumen_pais,pct_mayores_65,float64,19.7,% de población mayor de 65 años
+resumen_pais,esperanza_vida,float64,2.5,Esperanza de vida al nacer (años)
+resumen_pais,densidad_poblacion,float64,10.5,Habitantes por km²
+resumen_pais,camas_por_1000,float64,28.0,Camas hospitalarias por 1 000 hab.
+resumen_pais,prevalencia_diabetes,float64,14.2,% de población 20-79 años con diabetes
+resumen_pais,tasa_muerte_cardiovascular,float64,18.4,Muertes cardiovasculares por 100 000 hab.
+resumen_pais,grupo_ingreso,category,0.0,Cuartil de PIB per cápita (Q1 bajo - Q4 alto)
+resumen_pais,grupo_edad,category,0.0,Tercil de % mayores de 65 (Joven / Intermedia / Envejecida)
+resumen_pais,nivel_vacunacion,category,0.0,Cobertura final de vacunación completa (<40 / 40-70 / >=70 %)
+resumen_pais,es_micro_estado,bool,0.0,True si población < 100 000 (tasas inestables)
+resumen_pais,ultimo_mes_reportado,object,0.0,Último mes con datos del país
+resumen_pais,casos_acumulados,float64,0.0,Casos confirmados acumulados al cierre
+resumen_pais,muertes_acumuladas,float64,0.0,Muertes acumuladas al cierre
+resumen_pais,pct_al_menos_una_dosis,float64,8.4,% de población con al menos una dosis (cierre)
+resumen_pais,pct_vacunacion_completa,float64,9.2,% de población con esquema completo (cierre)
+resumen_pais,refuerzos_por_100,float64,15.1,Dosis de refuerzo por cada 100 hab. (cierre)
+resumen_pais,casos_por_millon,float64,0.0,Casos acumulados por millón de hab.
+resumen_pais,muertes_por_millon,float64,0.0,Muertes acumuladas por millón de hab.
+resumen_pais,letalidad_pct,float64,2.9,Muertes acumuladas / casos acumulados × 100
