@@ -1,0 +1,173 @@
+-- Modelo requerido:
+-- dim_pais[iso_code] 1 -> * fact_covid_mensual[iso_code]
+-- dim_tiempo[anio_mes] 1 -> * fact_covid_mensual[anio_mes]
+-- Ordenar dim_tiempo[nombre_mes] por dim_tiempo[mes].
+-- Si la configuración regional de Power BI usa punto y coma, sustituir las comas
+-- de argumentos por punto y coma.
+
+Poblacion seleccionada =
+SUM(dim_pais[poblacion])
+
+
+Poblacion con reporte al corte =
+VAR MesCorte = MAX(dim_tiempo[anio_mes])
+RETURN
+SUMX(
+    VALUES(dim_pais[iso_code]),
+    VAR FilasHastaCorte =
+        CALCULATE(
+            COUNTROWS(fact_covid_mensual),
+            REMOVEFILTERS(dim_tiempo),
+            FILTER(
+                ALL(fact_covid_mensual[anio_mes]),
+                fact_covid_mensual[anio_mes] <= MesCorte
+            )
+        )
+    RETURN
+        IF(FilasHastaCorte > 0, CALCULATE(MAX(dim_pais[poblacion])))
+)
+
+
+Poblacion con reporte ultimo mes =
+VAR MesCorte = MAX(dim_tiempo[anio_mes])
+RETURN
+SUMX(
+    VALUES(dim_pais[iso_code]),
+    VAR FilasDelMes =
+        CALCULATE(
+            COUNTROWS(fact_covid_mensual),
+            REMOVEFILTERS(dim_tiempo),
+            TREATAS({MesCorte}, fact_covid_mensual[anio_mes])
+        )
+    RETURN
+        IF(FilasDelMes > 0, CALCULATE(MAX(dim_pais[poblacion])))
+)
+
+
+Casos acumulados al corte =
+VAR MesCorte = MAX(dim_tiempo[anio_mes])
+RETURN
+SUMX(
+    VALUES(dim_pais[iso_code]),
+    CALCULATE(
+        MAX(fact_covid_mensual[casos_acumulados]),
+        REMOVEFILTERS(dim_tiempo),
+        FILTER(
+            ALL(fact_covid_mensual[anio_mes]),
+            fact_covid_mensual[anio_mes] <= MesCorte
+        )
+    )
+)
+
+
+Muertes acumuladas al corte =
+VAR MesCorte = MAX(dim_tiempo[anio_mes])
+RETURN
+SUMX(
+    VALUES(dim_pais[iso_code]),
+    CALCULATE(
+        MAX(fact_covid_mensual[muertes_acumuladas]),
+        REMOVEFILTERS(dim_tiempo),
+        FILTER(
+            ALL(fact_covid_mensual[anio_mes]),
+            fact_covid_mensual[anio_mes] <= MesCorte
+        )
+    )
+)
+
+
+KPI Mortalidad acumulada por millon =
+DIVIDE(
+    [Muertes acumuladas al corte],
+    [Poblacion con reporte al corte]
+) * 1000000
+
+
+KPI Letalidad acumulada pct =
+DIVIDE(
+    [Muertes acumuladas al corte],
+    [Casos acumulados al corte]
+) * 100
+
+
+Casos nuevos ultimo mes =
+VAR MesCorte = MAX(dim_tiempo[anio_mes])
+RETURN
+CALCULATE(
+    SUM(fact_covid_mensual[casos_nuevos]),
+    REMOVEFILTERS(dim_tiempo),
+    TREATAS({MesCorte}, fact_covid_mensual[anio_mes])
+)
+
+
+Muertes nuevas ultimo mes =
+VAR MesCorte = MAX(dim_tiempo[anio_mes])
+RETURN
+CALCULATE(
+    SUM(fact_covid_mensual[muertes_nuevas]),
+    REMOVEFILTERS(dim_tiempo),
+    TREATAS({MesCorte}, fact_covid_mensual[anio_mes])
+)
+
+
+KPI Incidencia mensual por 100k =
+DIVIDE(
+    [Casos nuevos ultimo mes],
+    [Poblacion con reporte ultimo mes]
+) * 100000
+
+
+KPI Mortalidad mensual por millon =
+DIVIDE(
+    [Muertes nuevas ultimo mes],
+    [Poblacion con reporte ultimo mes]
+) * 1000000
+
+
+KPI Cobertura completa pct =
+VAR MesCorte = MAX(dim_tiempo[anio_mes])
+VAR Numerador =
+    SUMX(
+        VALUES(dim_pais[iso_code]),
+        VAR CoberturaPais =
+            CALCULATE(
+                MAX(fact_covid_mensual[pct_vacunacion_completa]),
+                REMOVEFILTERS(dim_tiempo),
+                FILTER(
+                    ALL(fact_covid_mensual[anio_mes]),
+                    fact_covid_mensual[anio_mes] <= MesCorte
+                )
+            )
+        VAR PoblacionPais = CALCULATE(MAX(dim_pais[poblacion]))
+        RETURN
+            IF(NOT ISBLANK(CoberturaPais), CoberturaPais * PoblacionPais)
+    )
+VAR Denominador =
+    SUMX(
+        VALUES(dim_pais[iso_code]),
+        VAR CoberturaPais =
+            CALCULATE(
+                MAX(fact_covid_mensual[pct_vacunacion_completa]),
+                REMOVEFILTERS(dim_tiempo),
+                FILTER(
+                    ALL(fact_covid_mensual[anio_mes]),
+                    fact_covid_mensual[anio_mes] <= MesCorte
+                )
+            )
+        RETURN
+            IF(NOT ISBLANK(CoberturaPais), CALCULATE(MAX(dim_pais[poblacion])))
+    )
+RETURN
+DIVIDE(Numerador, Denominador)
+
+
+KPI Brecha vacunacion 70 pp =
+MAX(0, 70 - [KPI Cobertura completa pct])
+
+
+Aviso periodo parcial =
+IF(
+    MAX(dim_tiempo[anio_mes]) = "2024-08",
+    "Periodo parcial: datos hasta 2024-08-14",
+    BLANK()
+)

@@ -1,0 +1,3 @@
+﻿grupo,n,media_muertes_por_millon,mediana_muertes_por_millon
+Alta (>= mediana),109,1351.7620232733555,964.0373130878876
+Baja (< mediana),108,1145.393984671575,351.7589453421765

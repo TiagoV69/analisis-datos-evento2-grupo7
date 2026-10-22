@@ -1,0 +1,9 @@
+﻿hipotesis,prueba,n,estadistico,p_valor,ic95_inferior,ic95_superior,decision_h0_alpha_0_05,lectura
+H1,Spearman: PIB vs mortalidad acumulada por millón,195,0.6012471495697228,1.4922647406582228e-20,0.48544476811471127,0.6983795806288632,Rechazar H0,Asociación positiva; dirección contraria a la esperada
+H1 - sensibilidad,Spearman parcial controlando % mayores de 65,184,0.18642519992580617,0.011282859445759911,,,Rechazar H0,La asociación se reduce de forma importante al ajustar edad
+H2,Spearman: vacunación completa vs mortalidad acumulada,217,0.1558069471947907,0.021678004552703085,0.011568272472333349,0.29385077894663253,Rechazar H0,Asociación débil positiva; dirección contraria a la esperada
+H2,Welch: mortalidad en países sobre/bajo mediana de vacunación,217,1.1266981202639068,0.26113675611032333,,,No rechazar H0,Diferencia de medias no significativa
+H2,Mann-Whitney: mortalidad sobre/bajo mediana de vacunación,217,6803.5,0.04736492498212813,,,Rechazar H0,Diferencia de distribución limítrofe y en dirección contraria
+H2 - sensibilidad,Spearman parcial controlando PIB y % mayores de 65,180,-0.25159762771518085,0.000656827885701905,,,Rechazar H0,Asociación ajustada negativa; evidencia de confusión
+H2 - sensibilidad temporal,Cobertura dic-2021 vs mortalidad desde ene-2022,216,0.49476356649083464,9.750277474562304e-15,,,Rechazar H0,Asociación cruda positiva; puede reflejar confusión
+H2 - sensibilidad temporal,Correlación temporal parcial controlando PIB y edad,179,0.09341484201343359,0.2135838088350253,,,No rechazar H0,No queda una asociación independiente significativa
